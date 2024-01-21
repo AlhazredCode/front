@@ -1,0 +1,115 @@
+/* General Settings */ 
+
+.section-1 {
+   
+    margin-top: 6rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    
+}
+.section-wrapper {
+    color: var(--gray-dark);
+    display: flex;
+    max-width: 60rem;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.section-wrapper div {
+    margin: 2rem;
+}
+
+
+
+
+
+
+/* Left Area */ 
+
+.intro-section {
+   
+    padding-bottom: 4rem;
+}
+.section-1 h1{ 
+    font-size: 3rem;
+    margin: 1rem 2rem 0.5rem 0rem;
+}
+
+.section-1 h3{ 
+    font-size: 1.2rem;
+    margin: 0.5rem 0rem 2rem 0rem;
+}
+
+.section-1 p{ 
+    font-size: 1rem;
+    margin: 0.5rem 0rem 0.5rem 0rem;
+}
+/* img zone */ 
+
+
+
+/* test shit */ 
+.main-container {
+    height: 56rem;
+    background-color: blue;
+}
+
+.main-container1 {
+    height: 50rem;
+    background-color: rgb(0, 255, 153);
+}
+
+.main-container2 {
+    height: 50rem;
+    background-color: rgb(255, 0, 179);
+}
+
+/* media general */ 
+
+@media screen and (max-width: 650px) {
+   
+    .section-wrapper {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .section-wrapper div{
+        margin: 0;
+    }
+        /* left  */ 
+
+        .section-1 h1{ 
+            font-size: 2rem;
+            margin: 1rem auto;
+        }
+        
+        .section-1 h3{ 
+            font-size: 1.2rem;
+            margin:1rem auto;
+        
+        }
+        .section-1 p{ 
+            font-size: 1rem;
+            margin: 0.5rem auto;
+        }
+        
+        /* Right*/ 
+
+    .section-1 img{ 
+        width: 60%;
+       
+    }
+
+
+}
+
+/* img float */ 
+
+@media screen and (min-width: 650px) {
+   
+
+    .section-1 img{ 
+        float: right;
+        width: 80%;
+    }
+}

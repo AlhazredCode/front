@@ -1,0 +1,46 @@
+/*imprts */ 
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0');
+/* colors */
+
+:root {
+    font-size: 16px;
+    --gray-light: #f4f4f4; /* Light gray */
+    --gray-medium: #999999; /* Medium gray */
+    --gray-dark: #333333; /* Dark gray */
+
+    /* Import the accent color function from colors.js */
+    --accent-color: #17103f;
+
+    /* fonts */ 
+    --work-sans-light: 300;
+    --work-sans-regular: 400;
+    --work-sans-bold: 700;
+}
+
+
+
+
+/* Define font styles using the CSS variables */
+.work-sans-light {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: var(--work-sans-light);
+    font-style: normal;
+}
+
+.work-sans-regular {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: var(--work-sans-regular);
+    font-style: normal;
+}
+
+.work-sans-bold {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: var(--work-sans-bold);
+    font-style: normal;
+}
