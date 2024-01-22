@@ -6,8 +6,7 @@ const createHeader = () => `
     
     <!-- Image in the navbar -->
     <img src="./Assets/header-logo.svg" alt="Logo" class="header-logo">
-    <img src="../Assets/header-logo.svg" alt="Logo" class="header-logo">
-    <img src=".../Assets/header-logo.svg" alt="Logo" class="header-logo">
+   
     
 
     <!-- List of text links in the navbar -->
