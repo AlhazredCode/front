@@ -5,7 +5,10 @@ const createHeader = () => `
     <nav class="header-container">
     
     <!-- Image in the navbar -->
+    <img src="./assets/header-logo.svg" alt="Logo" class="header-logo">
     <img src="../assets/header-logo.svg" alt="Logo" class="header-logo">
+    <img src=".../assets/header-logo.svg" alt="Logo" class="header-logo">
+    
 
     <!-- List of text links in the navbar -->
     <ul class="nav-elements">
