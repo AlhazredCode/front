@@ -13,10 +13,7 @@ const section1 = () => `
         Con residencia en Táchira, Venezuela</p>
     </div>
     <div>
-      <img src="public/Assets/Components/page1/sectionimg.png" alt="img">
-      <img src="/public/Assets/Components/page1/sectionimg.png" alt="img">
-      <img src="./public/Assets/Components/page1/sectionimg.png" alt="img">
-      <img src="./public/Assets/Components/page1/sectionimg.png" alt="img">
+      <img src="./Assets/Components/page1/sectionimg.png" alt="img">
     </div>
   </div>
 </div>
