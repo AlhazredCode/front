@@ -2,21 +2,19 @@
 
 const section1 = () => `
 
-<div class="section-1">
-  <div class="section-wrapper">
-    <div class="intro-section">
-      <h1 class="work-sans-bold"> Diseñando el Futuro</h1>
-      <h3> Hola, soy Jesús</h3>
-      <p class="work-sans-light">
-       Diseñador gráfico & Web Developer </p>
-       <p>
-        Con residencia en Táchira, Venezuela</p>
-    </div>
-    <div>
-      <img src="./Assets/components/page1/sectionimg.png" alt="img">
-    </div>
-  </div>
+<div class="section-one animated-section">
+
+<!-- Heading Section -->
+<h2 class="work-sans-bold">
+  Precision in Design <br>
+  <span class="work-sans-light"> Excellence in Function</span>
+</h2>
+
+<!-- Contact Button -->
+<button class="contact-button work-sans-bold">Say Hello!</button>
+
 </div>
+
 `;
 
 // Export the createHeader template

@@ -1,5 +1,64 @@
-.main-container1 {
-    height: 50rem;
-    background-color: rgb(0, 255, 153);
-}
-
+/* Default styles for larger screens */
+.section-two {
+    max-width: 60rem;
+    margin: 2rem auto;
+  }
+  
+  .section-two-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .section-two h3 {
+    text-align: center;
+    font-size: 2.5rem; /* Set the size for h3 */
+    margin: 4rem 0rem;
+  }
+  
+  .services-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .services-list li {
+    width: 31%; /* Three columns with a small gap between them */
+    text-align: center;
+    margin-bottom: 4rem; /* Adjust spacing between groups of 3 items */
+  }
+  
+  .services-list img {
+    width: 4rem; /* Reduce the width of the icon */
+    height: 4rem; /* Reduce the height of the icon */
+    opacity: 0.7;
+  }
+  
+  .services-list h4 {
+    font-size: 1.8rem; /* Reduce font size for both larger and smaller screens */
+    color: var(--gray-dark); /* Set color using variable */
+  }
+  
+  /* Media query for smaller screens (up to 60rem) */
+  @media screen and (max-width: 60rem) {
+    .services-list li {
+      width: 50%; /* Two columns for smaller screens */
+      margin-bottom: 2.5rem; /* Adjust spacing between items for smaller screens */
+    }
+  
+    .services-list img {
+      width: 4rem; /* Reduce the width of the icon for smaller screens */
+      height: 4rem; /* Reduce the height of the icon for smaller screens */
+    }
+  
+    .services-list h4 {
+      font-size: 1.2rem; /* Further reduce font size for smaller screens */
+    }
+    .section-two h3 {
+      font-size: 2rem;
+      margin: 1rem 3rem;
+    }
+  }
+  

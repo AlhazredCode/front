@@ -1,0 +1,31 @@
+/* Estilos para tamaños de pantalla más grandes */
+.floating-button {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    background-color: var(--gray-dark);
+    border-radius: 50%;
+    padding: 1.2rem; /* Ajusta el padding según sea necesario */
+    z-index: 9;
+  }
+  
+  .floating-button img {
+    width: 3rem; /* Ajusta el tamaño del icono */
+    height: 3rem; /* Ajusta el tamaño del icono */
+    filter: brightness(0) invert(1) sepia(1) saturate(5) hue-rotate(175deg);
+    display: block;
+    margin: auto;
+  }
+  
+  /* Media query para tamaños de pantalla más pequeños (hasta 60 rem) */
+  @media screen and (max-width: 60rem) {
+    .floating-button {
+      padding: 1rem; /* Ajusta el padding para pantallas más pequeñas */
+    }
+  
+    .floating-button img {
+      width: 2.5rem; /* Ajusta el tamaño del icono para pantallas más pequeñas */
+      height: 2.5rem; /* Ajusta el tamaño del icono para pantallas más pequeñas */
+    }
+  }
+  

@@ -1,4 +1,47 @@
-.main-container2 {
-    height: 50rem;
-    background-color: rgb(255, 0, 179);
-}
+/* Estilos para pantallas más grandes */
+.section-four {
+    background-color: #fff; /* Ajusta el color de fondo según sea necesario */
+    padding: 4rem 0; /* Ajusta el relleno según sea necesario */
+  }
+  
+  .section-four h3 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .projects-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .project-card {
+    width: 30%; /* Tres tarjetas por fila con algún espacio entre ellas */
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  .project-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .project-card h4 {
+    margin: 1rem 0;
+  }
+  
+  .project-card p.tags {
+    color: var(--gray-medium);
+  }
+  
+  /* Estilos para pantallas más pequeñas (hasta 650px) */
+  @media screen and (max-width: 650px) {
+    .project-card {
+      width: 100%; /* Una tarjeta por fila en pantallas más pequeñas */
+    }
+  }
+  

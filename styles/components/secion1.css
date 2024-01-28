@@ -1,112 +1,57 @@
-/* General Settings */ 
+/* Global Styles (if any) */
 
-.section-1 {
-   
-    margin-top: 6rem;
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
-    
-}
-.section-wrapper {
-    color: var(--gray-dark);
+.section-one {
     display: flex;
-    max-width: 60rem;
-    margin: 0 auto;
+    flex-direction: column;
     align-items: center;
-}
+    justify-content: center;
+    height: 60vh;
+    margin: 0 auto;
+    max-width: 60rem;
+    /* Add any other styling as needed */
+ 
+  }
 
-.section-wrapper div {
-    margin: 2rem;
-}
+  .section-one h2 {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 6rem;
+    font-size: 4rem;
+    text-align: center;
+  }
 
-
-
-
-
-
-/* Left Area */ 
-
-.intro-section {
-   
-    padding-bottom: 4rem;
-}
-.section-1 h1{ 
-    font-size: 3rem;
-    margin: 1rem 2rem 0.5rem 0rem;
-}
-
-.section-1 h3{ 
+  .section-one button {
+    padding: 0.8rem;
     font-size: 1.2rem;
-    margin: 0.5rem 0rem 2rem 0rem;
-}
-
-.section-1 p{ 
-    font-size: 1rem;
-    margin: 0.5rem 0rem 0.5rem 0rem;
-}
-/* img zone */ 
-
-
-
-/* test shit */ 
-.main-container {
-    height: 56rem;
-}
-
-.main-container1 {
-    height: 50rem;
-}
-
-.main-container2 {
-    height: 50rem;
-}
-
-/* media general */ 
-
-@media screen and (max-width: 650px) {
+    border-width: 0.2rem;
+    border-radius: 0.4rem;
+    margin: 1rem;
+    z-index: 8;
    
-    .section-wrapper {
-        flex-direction: column-reverse;
-        text-align: center;
+  }
+
+  .section-one button:hover {
+    background-color: var(--gray-medium);
+  }
+
+
+  /* Global Styles (if any) */
+
+@keyframes slideIn {
+    from {
+      transform: translateY(-50px);
+      opacity: 0;
     }
-
-    .section-wrapper div{
-        margin: 0;
+    to {
+      transform: translateY(0);
+      opacity: 1;
     }
-        /* left  */ 
-
-        .section-1 h1{ 
-            font-size: 2rem;
-            margin: 1rem auto;
-        }
-        
-        .section-1 h3{ 
-            font-size: 1.2rem;
-            margin:1rem auto;
-        
-        }
-        .section-1 p{ 
-            font-size: 1rem;
-            margin: 0.5rem auto;
-        }
-        
-        /* Right*/ 
-
-    .section-1 img{ 
-        width: 60%;
-       
-    }
-
-
-}
-
-/* img float */ 
-
-@media screen and (min-width: 650px) {
-   
-
-    .section-1 img{ 
-        float: right;
-        width: 80%;
-    }
-}
+  }
+  
+  .animated-section {
+  
+    animation: slideIn 1.5s ease-out; /* Adjust the animation duration and timing function as needed */
+    /* Add any other styling as needed */
+  }
+  
+  

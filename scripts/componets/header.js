@@ -55,4 +55,3 @@ document.addEventListener('DOMContentLoaded', function() {
 
 // Export the createHeader template
 export default createHeader;
-  
